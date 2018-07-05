@@ -1,11 +1,11 @@
 package com.ust.calc.multiplicacion.controllers;
 
-import com.ust.calc.bean.InputBean;
-import com.ust.calc.multiplicacion.services.IMultiplyService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.ust.calc.bean.InputBean;
+import com.ust.calc.multiplicacion.services.IMultiplyService;
 
 @RestController
 public class MultiplicacionController implements Multiply{
